@@ -7,6 +7,8 @@ public class Main {
 		System.out.println("Hello Java");
 		Method1();
 		Method2();
+		Calculator c = new Calculator();
+		System.out.println(c.Mul((double)10, (double)10));
 	}
 	
 	private static void Method1() {
